@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <NoWarn>$(NoWarn);CGEN001</NoWarn>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="cTrader.Automate" Version="*"/>
+        <PackageReference Include="cTrader.Automate.SourceGenerators" Version="*"/>
+    </ItemGroup>
+
+    <ItemGroup>
+    </ItemGroup>
+</Project>
